@@ -7,21 +7,20 @@ A ROS 2 project built on **Ubuntu 22.04 (Humble)** featuring TurtleBot3 simulati
 
 ## 🛠️ Installation & Setup
 1. Clone the repository into your workspace `src` folder:
-   ```bash
+```bash
    cd ~/your_ws/src
    git clone [https://github.com/aparna7ap7/my-robot-navigation-project.git](https://github.com/aparna7ap7/my-robot-navigation-project.git)
-
 ```
 
 2. Build the workspace:
-   ```bash
+```bash
    cd ~/your_ws
    colcon build --symlink-install
 
 ```
 
 3. Source your environment:
-   ```bash
+```bash
    source install/setup.bash
    source /usr/share/gazebo/setup.sh
 
@@ -30,7 +29,7 @@ A ROS 2 project built on **Ubuntu 22.04 (Humble)** featuring TurtleBot3 simulati
 
 ## 🚀 Usage
 
-   ```bash
+```bash
    ros2 launch launch/mapping_astar.launch.py goal_x:=1.5 goal_y:=-1.0
 ```
 
