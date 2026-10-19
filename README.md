@@ -12,18 +12,22 @@ A ROS 2 project built on **Ubuntu 22.04 (Humble)** featuring TurtleBot3 simulati
    git clone [https://github.com/aparna7ap7/my-robot-navigation-project.git](https://github.com/aparna7ap7/my-robot-navigation-project.git)
 
 ```
+
 2. Build the workspace:
    ```bash
    cd ~/your_ws
    colcon build --symlink-install
 
 ```
+
 3. Source your environment:
    ```bash
    source install/setup.bash
    source /usr/share/gazebo/setup.sh
 
 ```
+
+
 ## 🚀 Usage
 
    ```bash
