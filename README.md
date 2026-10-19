@@ -13,17 +13,13 @@ A ROS 2 project built on **Ubuntu 22.04 (Humble)** featuring TurtleBot3 simulati
 ```
 
 2. Build the workspace:
-
    ```bash
-
    cd ~/your_ws
    colcon build --symlink-install
 ```
 
 3. Source your environment:
-
    ```bash
-
    source install/setup.bash
    source /usr/share/gazebo/setup.sh
 ```
@@ -31,6 +27,5 @@ A ROS 2 project built on **Ubuntu 22.04 (Humble)** featuring TurtleBot3 simulati
 ## 🚀 Usage
 
    ```bash
-
    ros2 launch launch/mapping_astar.launch.py goal_x:=1.5 goal_y:=-1.0
 ```
