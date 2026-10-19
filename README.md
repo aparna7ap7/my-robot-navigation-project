@@ -24,6 +24,7 @@ A ROS 2 project built on **Ubuntu 22.04 (Humble)** featuring TurtleBot3 simulati
    source /usr/share/gazebo/setup.sh
 ```
 ## 🚀 Usage
+
    ```bash
    ros2 launch launch/mapping_astar.launch.py goal_x:=1.5 goal_y:=-1.0
 ```
